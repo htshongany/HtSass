@@ -1,0 +1,14 @@
+# folder 
+__pycache__/*
+env/*
+dist/*
+build/*
+test/*
+src/dart-sass/*
+
+# file
+*.png
+*.spec
+*.exe
+*.bat
+*.pyc
