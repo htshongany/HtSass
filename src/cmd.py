@@ -24,7 +24,7 @@ class Cmd:
         print(output.returncode)
         if output.returncode == 0:
             # print(stdout.decode())
-            print(stderr.decode().split()[0])
+            # print(stderr.decode().split()[0])
             self.label_error_var.set("")
         else:
         
