@@ -1,6 +1,6 @@
 # HtSass
 
-HtSass is a graphical application for the Sass preprocessor. It uses the dark-sass compiler that you can find here: [dart-sass](https://github.com/sass/dart-sass/releases)
+HtSass is a graphical application for the Sass preprocessor. It uses the dart-sass compiler that you can find here: [dart-sass](https://github.com/sass/dart-sass/releases)
 
 I made this application as part of a challenge which consisted in making an application with the native libraries of the language. 
 
@@ -8,7 +8,7 @@ I made this application as part of a challenge which consisted in making an appl
 
 ## dart-sass
 
-You need to install dark-sass, unpack it and place it in the src folder.
+You need to download dart-sass, unpack it and place it in the src folder.
 
 ```
 ├───src
@@ -36,5 +36,5 @@ def watch_compilation(self ,css_file:str ,sass_file:str):
 
 ```
 C:\> cd HtSass
-PS C:\HtSass>python main.py
+C:\HtSass>python main.py
 ```
